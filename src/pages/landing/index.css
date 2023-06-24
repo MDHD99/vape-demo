@@ -1,0 +1,12 @@
+
+.PurpleRectangle {
+    height: 4em;
+    width: 100%;
+    background-color: #571657;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: white;
+}

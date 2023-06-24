@@ -1,0 +1,9 @@
+.TopBanner {
+    width: 100%;
+    padding: 0rem 1rem 0rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+}

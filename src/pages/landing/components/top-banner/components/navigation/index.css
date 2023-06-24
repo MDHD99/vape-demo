@@ -1,0 +1,70 @@
+/*
+Main navigation
+==========================================
+Contains the styles of the main navigation of the Shopware storefront.
+
+The main navigation is positioned above the content section.
+
+It contains the viewport specific styles inside media queries.
+*/
+
+.NavigationMain {
+    background: #fff;
+    display: none;
+}
+
+@media screen and (min-width: 48em) {
+    .NavigationMain {
+        width: 66%;
+        background: transparent;
+        border-bottom: none;
+        border-top: none;
+        position: unset;
+        display: block;
+
+        .navigation--list {
+            padding: 0;
+        }
+    }
+
+    .NavigationListWrapper {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .NavigationListContainer {
+        text-align: center;
+        z-index: 3;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        max-width: 78.75rem;
+        list-style: none;
+        width: 100%;
+        padding-left: 2em;
+    }
+
+    .NavigationEntry {
+        white-space: nowrap;
+        float: left;
+    }
+
+    .NavigationLink {
+        background: none;
+        color: #414141;
+        position: relative;
+        text-transform: uppercase;
+        padding: 2rem 1rem 2rem 1rem;
+        font-size: 1.25rem;
+        border: none;
+        font-weight: 700;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        margin: 0;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
